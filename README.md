@@ -1,6 +1,6 @@
 # PG-k8s
 Randomly testing out https://cloudnative-pg.io on local Kind set up.
-Were using two helm charts, one to install the operator and CRD (custom resource definitions) and the other to install a cluster.
+We're using two helm charts, one to install the operator and CRD (custom resource definitions) and the other to install a cluster.
 
 ## Getting started
 ### Install tooling
@@ -51,9 +51,10 @@ make dev-down
 ```
 
 ## Further work
-- add metrication, monitoring and alerting to this stack using proemtheus and grafana.
+- add metrication, monitoring and alerting to this stack using prometheus and grafana.
 - add a demo application that uses this deployment
 - use fluxcd or kustomize to deploy instead of helm
+- figure out a local backup solution
 
 
 
